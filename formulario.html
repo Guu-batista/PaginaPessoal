@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./styles/styleForm.css" />
+    <title>Document</title>
+</head>
+<body class="body">
+    <h1>Entre em contato comigo!</h1>
+    <fieldset class="forms">
+        <br>
+        <div>
+            <span>Seu nome: </span>
+            <input type="text" name="name" placeholder="Seu nome" required>
+            <br><br>
+        </div>
+        <div>
+            <span>Telefone</span>
+            <input type="tel" name="phone" placeholder="(xx) xxxxx-xxxx" required>
+            <br><br>
+        </div>
+        <div>
+            <span>E-mail</span>
+            <input type="text" name="email" placeholder="email@email.com" required>
+            <br><br>
+        </div>
+       <div>
+        <span>Motivo do Contato: </span>
+        <select name="contact" >
+            <option value="" disabled selected>Selecione um motivo</option>
+            <option value="work">Trabalho</option>
+            <option value="feedback">Feedback</option>
+            <option value="knowmore">Conhecer melhor</option>
+            <option value="question">Dúvidas</option>
+            <option value="other">Outro</option>
+        </select>
+        <br>
+       </div>
+       <div>
+        <p>Comentários:</p>
+        <textarea name="comments" rows="4" cols="50"></textarea><br>
+       </div>
+       <br>
+       <button>Enviar</button>
+       <br>
+    </fieldset>
+</body>
+</html>
